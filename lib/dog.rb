@@ -19,7 +19,5 @@ class Dog
   def self.print_all 
   @@all.each {|dog| puts @name} 
   end 
-  
+binding.pry   
 end
-
-binding.pry 
