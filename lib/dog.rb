@@ -1,5 +1,4 @@
-require "pry"
-
+require "pry" 
 class Dog
   
   @@all = []
@@ -21,6 +20,6 @@ class Dog
   @@all.each {|dog| puts @name} 
   end 
   
-end 
+end
 
-binding.pry
+binding.pry 
